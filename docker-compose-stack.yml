@@ -2,7 +2,7 @@ version: '3'
 
 services:
   cat-app:
-    image: mikesir87/cats
+    image: jonarmstrong/cats
     ports:
       - "5000:5000"
     deploy:
